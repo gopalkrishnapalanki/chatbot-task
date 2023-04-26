@@ -1,1 +1,1 @@
-crud op
+ netlify link : --https://chatbot-w.netlify.app/card

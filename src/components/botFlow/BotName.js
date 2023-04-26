@@ -24,7 +24,6 @@ export default function BotName() {
     const [botModal, setBotModal] = useState({ modal: false })
     const [botType, setbotType] = useState('')
     const [flowSelect,setFlowSelect] =  useState("Main Flow")
-    console.log(flowSelect,'flowSelect');
 
     const {id} = useParams()
 

@@ -44,10 +44,6 @@ const flowGetByID =async () =>{
 
     const {data}  = await getFlowById(props.flowID)
     setFlowName(data.payload.data.title)
-    
-    
-    
-
 }
 
     const updateFlow = async () => {
@@ -102,7 +98,7 @@ const flowGetByID =async () =>{
                                         <form className='mt-4 needs-validation' novalidate>
                                             <input type="text" className="form-control " placeholder="Flow Name" required aria-label="First name" onChange={(e) => setTitle(e.target.value)} />
 
-                                            <div className='d-flex justify-content-end'>
+                                            <div className='d-flex justify-content-'>
                                                 <button type="button" className="btn btn-outline-danger mt-3 me-3" onClick={() => close()}>Delete</button>
                                                 <button type="button" className="btn btn-dark mt-3" onClick={() => createFlow()}>Save</button></div>
                                         </form>

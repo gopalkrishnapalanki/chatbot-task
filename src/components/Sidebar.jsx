@@ -14,6 +14,7 @@ const SideBar = () => {
                 <HomeIcon fontSize='medium' sx={{marginTop:'10px',color:'white'}}/>
                 {/* <img src="https://res.cloudinary.com/dlxfoztlz/image/upload/v1676874765/DashboardHome_o4ctye.svg" className='my-side-icons' width={50} /> */}
                 {/* <p className=''>Dashboard</p> */}
+
             </li>
             </Link>
         </ul>
